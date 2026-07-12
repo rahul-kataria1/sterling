@@ -177,7 +177,7 @@ export default function Quote() {
                       value={form.address}
                       onChange={handleChange}
                       required
-                      placeholder="123 Main St, Edmonton, AB"
+                      placeholder="123 Main St, Calgary, AB"
                       className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>

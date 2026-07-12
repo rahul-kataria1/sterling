@@ -20,7 +20,7 @@ const values = [
   {
     icon: <FiHeart className="text-3xl text-blue-600" />,
     title: 'Community-Focused',
-    desc: 'We are local to Edmonton and take pride in serving our community with care and dedication.',
+    desc: 'We are local to Calgary and take pride in serving our community with care and dedication.',
   },
 ]
 
@@ -32,7 +32,7 @@ export default function About() {
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
           <p className="text-blue-100 text-lg">
-            We are Sterling Solutions — a locally owned cleaning and property maintenance company serving Edmonton and Alberta.
+            We are Sterling Solutions — a locally owned cleaning and property maintenance company serving Calgary, Airdrie, Cochrane and Alberta.
           </p>
         </div>
       </section>
@@ -44,17 +44,17 @@ export default function About() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 text-lg mb-4">
-                Sterling Solutions Cleaning was founded with a simple mission: to provide reliable, high-quality home and property services that Edmontonians can count on.
+                Sterling Solutions Cleaning was founded with a simple mission: to provide reliable, high-quality home and property services that Calgarians can count on.
               </p>
               <p className="text-gray-600 mb-4">
-                We started as a small residential cleaning operation and grew into a full-service property maintenance company offering cleaning, yard work, and snow removal. Today, we serve hundreds of satisfied customers across Edmonton and surrounding communities.
+                We started as a small residential cleaning operation and grew into a full-service property maintenance company offering cleaning, yard work, and snow removal. Today, we serve hundreds of satisfied customers across Calgary, Airdrie, Cochrane and surrounding communities.
               </p>
               <p className="text-gray-600 mb-8">
                 Every job, big or small, receives our full attention and care. We treat your home the same way we treat our own — with respect, precision, and pride.
               </p>
               <ul className="space-y-3">
                 {[
-                  'Locally owned and operated in Edmonton, AB',
+                  'Locally owned and operated in Calgary, AB',
                   'Fully insured and professional staff',
                   'Eco-friendly options available',
                   'Serving residential and commercial clients',

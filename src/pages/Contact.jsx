@@ -66,7 +66,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900 mb-1">Service Area</div>
-                      <p className="text-gray-600">Edmonton, St. Albert, Sherwood Park,<br />Spruce Grove, Leduc & surrounding areas, AB</p>
+                      <p className="text-gray-600">Calgary, Airdrie, Cochrane<br />& surrounding areas, AB</p>
                     </div>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function Contact() {
               <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl h-48 flex items-center justify-center">
                 <div className="text-center text-blue-600">
                   <FiMapPin className="text-4xl mx-auto mb-2" />
-                  <p className="font-semibold">Serving Edmonton & Area, AB</p>
+                  <p className="font-semibold">Serving Calgary, Airdrie & Cochrane, AB</p>
                   <p className="text-sm text-blue-500 mt-1">Call us to confirm your area</p>
                 </div>
               </div>

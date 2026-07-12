@@ -83,7 +83,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <FiMapPin className="text-blue-400 shrink-0" />
-                <span>Serving Edmonton & Area, AB</span>
+                <span>Serving Calgary, Airdrie & Cochrane, AB</span>
               </li>
             </ul>
           </div>

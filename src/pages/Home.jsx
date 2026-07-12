@@ -27,7 +27,7 @@ const reasons = [
   'Fully insured and reliable professionals',
   'Satisfaction guaranteed on every job',
   'Affordable and transparent pricing',
-  'Serving Edmonton & surrounding areas',
+  'Serving Calgary, Airdrie & Cochrane',
   'Flexible scheduling — weekdays & weekends',
   'Eco-friendly cleaning products available',
 ]
@@ -53,7 +53,7 @@ const testimonials = [
 const faqs = [
   {
     q: 'What areas do you serve?',
-    a: 'We serve Edmonton and surrounding communities in Alberta.',
+    a: 'We serve Calgary, Airdrie, Cochrane and surrounding communities in Alberta.',
   },
   {
     q: 'How do I get a quote?',
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="max-w-3xl">
             <div className="inline-block bg-blue-600/50 border border-blue-400/30 text-blue-200 text-sm font-medium px-3 py-1 rounded-full mb-4">
-              Edmonton's Trusted Service Provider
+              Calgary's Trusted Service Provider
             </div>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
               Professional Cleaning,{' '}
@@ -200,9 +200,9 @@ export default function Home() {
       {/* Service Area */}
       <section className="py-16 bg-blue-700 text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4">Serving Edmonton & Surrounding Areas</h2>
+          <h2 className="text-3xl font-bold mb-4">Serving Calgary, Airdrie & Cochrane</h2>
           <p className="text-blue-100 mb-8 text-lg">
-            We proudly serve Edmonton, St. Albert, Sherwood Park, Spruce Grove, Leduc, and nearby communities across Alberta.
+            We proudly serve Calgary, Airdrie, Cochrane, and nearby communities across Alberta.
           </p>
           <Link to="/contact" className="inline-block bg-white text-blue-800 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors">
             Check Your Area
