@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { FiPhone, FiCheckCircle, FiStar, FiArrowRight } from 'react-icons/fi'
+import { FiPhone, FiCheckCircle, FiArrowRight } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
+import Reviews from '../components/Reviews'
 
 const services = [
   {
@@ -30,24 +31,6 @@ const reasons = [
   'Serving Calgary, Airdrie & Cochrane',
   'Flexible scheduling — weekdays & weekends',
   'Eco-friendly cleaning products available',
-]
-
-const testimonials = [
-  {
-    name: 'Sarah M.',
-    text: 'Amazing service! My home has never looked so clean. They were thorough, professional, and on time.',
-    rating: 5,
-  },
-  {
-    name: 'James T.',
-    text: 'Had my driveway cleared after a big snowfall. Quick response, great job. Highly recommend!',
-    rating: 5,
-  },
-  {
-    name: 'Linda K.',
-    text: 'They transformed my backyard. Mowing, edging, hedge trim — all done perfectly. Will use again!',
-    rating: 5,
-  },
 ]
 
 const faqs = [
@@ -210,28 +193,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
-            <p className="text-gray-500">Don't just take our word for it.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((t) => (
-              <div key={t.name} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <div className="flex gap-1 mb-4">
-                  {Array.from({ length: t.rating }).map((_, i) => (
-                    <FiStar key={i} className="text-yellow-400 fill-yellow-400 text-lg" />
-                  ))}
-                </div>
-                <p className="text-gray-600 mb-6 italic">"{t.text}"</p>
-                <div className="font-semibold text-gray-900">— {t.name}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Reviews */}
+      <Reviews />
 
       {/* FAQ */}
       <section className="py-20 bg-white">

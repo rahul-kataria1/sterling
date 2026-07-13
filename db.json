@@ -1,0 +1,25 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Sarah M.",
+      "rating": 5,
+      "text": "Amazing service! My home has never looked so clean. They were thorough, professional, and on time.",
+      "createdAt": "2026-05-01T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "James T.",
+      "rating": 5,
+      "text": "Had my driveway cleared after a big snowfall. Quick response, great job. Highly recommend!",
+      "createdAt": "2026-05-15T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Linda K.",
+      "rating": 5,
+      "text": "They transformed my backyard. Mowing, edging, hedge trim — all done perfectly. Will use again!",
+      "createdAt": "2026-06-02T12:00:00.000Z"
+    }
+  ]
+}
